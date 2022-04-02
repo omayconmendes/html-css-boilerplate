@@ -1,7 +1,7 @@
 // Selectors
-const container = document.getElementById('container');
-const modeTitle = document.getElementById('mode-title');
-const button = document.getElementById('mode-selector');
+const container = document.querySelector('#container');
+const modeTitle = document.querySelector('#mode-title');
+const button = document.querySelector('#mode-selector');
 
 const darkModeClass = 'dark-mode';
 
